@@ -6,7 +6,7 @@ app.use(cors());
 const bodyParser = require('body-parser');
 app.use(bodyParser.json());
 
-const port = 5000;
+const port = 4000;
 
 
 const { ownerroute } = require("./Routes/owner.routes");
